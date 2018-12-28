@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_age">
+        <item>体育课</item>
+        <item>专业课</item>
+        <item>自习课</item>
+        <item>心理课</item>
+        <item>毛概课</item>
+        <item>教育课</item>
+    </string-array>
+</resources>

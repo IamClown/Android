@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <!--dbname为数据库的名字，version为版本号-->
+    <dbname value="BookStore"></dbname>
+    <version value="2"></version>
+    <list>
+        <!--对象关系映射-->
+        <mapping class="com.example.zyj.testlitepal.Book"></mapping>
+        <mapping class="com.example.zyj.testlitepal.Categroy"></mapping>
+    </list>
+</litepal>

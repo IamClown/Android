@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BroadcastBestPractice</string>
+    <string name="title_activity_control">Control</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>

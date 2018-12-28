@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zyj.testall1.RegisterActivity">
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="198dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="307dp"
+        android:textAllCaps="false"
+        android:alpha="0.5"/>
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="请输入注册名"
+        android:alpha="0.8"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/register_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/register_name"
+        android:layout_below="@+id/register_name"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="请输入密码"
+        android:maxLines="1"
+        android:alpha="0.8"/>
+</RelativeLayout>

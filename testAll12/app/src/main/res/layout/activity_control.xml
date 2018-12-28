@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".control">
+
+    <!--android:layout_alignParentTop="true"一直处于父布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <AutoCompleteTextView
+            android:id="@+id/seach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DCDCDC"
+            android:completionThreshold="1"
+            android:gravity="center"
+            android:hint="搜索" />
+    </LinearLayout>
+
+    <!--android:layout_alignParentBottom="true"处与父布局下面-->
+    <LinearLayout
+        android:background="#bababa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1.0">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_msg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/msg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_msg"
+                android:layout_centerHorizontal="true"
+                android:text="消息" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/proper"
+                android:layout_centerHorizontal="true"
+                android:text="联系人" />
+
+            <ImageView
+                android:id="@+id/proper"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/proper" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dynamic"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="动态" />
+
+            <ImageView
+                android:id="@+id/dynamic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/dynamic" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+
+    <!--<include layout="@layout/activity_bottom_title"></include>-->

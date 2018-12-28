@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="realage">
+        <item>0-7岁</item>
+        <item>8-18岁</item>
+        <item>19-30岁</item>
+        <item>31-50岁</item>
+        <item>51-80岁</item>
+        <item>81-100岁</item>
+    </string-array>
+</resources>
